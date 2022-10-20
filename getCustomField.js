@@ -21,5 +21,4 @@ function getCustomFields(cardID, key, token){
       body: ['Error getting cards from list - Trello Integration Library']
     }
   }
-
 }
