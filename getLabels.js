@@ -21,7 +21,7 @@ function getLabels(boardID, key, token){
     } catch{
       return {
         responseCode: 404,
-        body: ['Error moving card - Trello Integration Library']
+        body: ['Error getting labels - Trello Integration Library']
     }
   }
 }
