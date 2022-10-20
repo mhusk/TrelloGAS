@@ -24,7 +24,7 @@ function moveCard(cardID, newListID, key, token){
   } catch{
     return {
       responseCode: 404,
-      body: ['Error getting cards from list - Trello Integration Library']
+      body: ['Error moving card - Trello Integration Library']
     }
   }
 }
